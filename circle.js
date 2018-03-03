@@ -2,7 +2,7 @@ function Circle(game, radius, player) {
     this.player = player;
     this.radius = radius;
     this.clockTick = 0;
-    this.visualRadius = 150;
+    this.visualRadius = 300;
     this.maxSpeed = 200;
     switch(player) {
         case 1:
